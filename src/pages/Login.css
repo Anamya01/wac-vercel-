@@ -1,0 +1,17 @@
+.signin{
+    width: 30vw;
+    height: 50vh;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+}
+.ing{
+    width: 98%;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}

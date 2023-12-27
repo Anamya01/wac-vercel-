@@ -1,0 +1,15 @@
+.Horizon{
+    width: 90%;
+    height: 60vh;
+    margin-top: 0px;
+    margin-left: 50%;
+    transform: translate(-50%,0%);
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px){
+    .Horizon{
+        flex-direction: column;
+        height: 35vh;
+    }
+}

@@ -1,0 +1,91 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@font-face {
+    font-family: "Minecraft";
+    src: url('../../fonts/Minecraft.ttf');
+}
+.NavBar{
+    width: 97.5vw;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.profile img{
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+}
+.profile p{
+    font-size: 16px;
+    font-family: 'Righteous', sans-serif;
+    color: #5fe85d;
+}
+.xplay{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.xplay h1{
+    font-family: 'Righteous', sans-serif;
+    color: #5fe85d;
+}
+.xplay p{
+    font-family: 'Righteous', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.acountbtn{
+    width: 70px;
+    height: 20px;
+    font-size: .8rem;
+    margin: 5px;
+    margin-bottom: 10px;
+    background:none;
+    color: #5fe85d;
+
+}
+.acountbtn:hover{
+    text-decoration: underline;
+}
+.bars{
+    position: absolute;
+    right: 11px;
+    z-index: 100;
+    width: 80px;
+    border-radius: 5px;
+    background-color: rgb(30, 30, 30);
+}
+
+@media only screen and (max-width: 600px) {
+    .NavBar {
+        width: 100%;
+        height: 30px;
+        padding: 2px;
+        margin-top: 5px;
+    }
+    #topstrem{
+        display: none;
+    }
+    .srch{
+        width: 30px;
+        height: 10px;
+    }
+  }

@@ -1,0 +1,20 @@
+.frametag{
+    min-width: 100%;
+    min-height: 70%;
+}
+
+iframe{
+    border: none;
+}
+#modal-modal-title{
+    color: #fff;
+    font-family: 'Righteous', sans-serif;
+    font-size: 1.3rem;
+}
+#modal-modal-description{
+    color: #fff;
+    font-family: 'Righteous', sans-serif;
+}
+#rs-date{
+    color: #5fe85d;
+}

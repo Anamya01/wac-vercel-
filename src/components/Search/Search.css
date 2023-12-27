@@ -1,0 +1,23 @@
+.Search{
+
+}
+.searching{
+    color: rgb(123, 123, 123);
+    background-color: rgb(34, 34, 34);
+    padding: 10px;
+    font-family: 'Righteous', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.color{
+    color: #5fe85d;
+}
+input::placeholder{
+    font-size: 16px;
+    color: rgb(123, 123, 123);
+}
+a{
+    text-decoration: none;
+}

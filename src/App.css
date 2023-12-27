@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.head{
+    color: #d2ffd1;
+    font-family: 'Righteous', sans-serif;
+    font-size: 20px;
+    margin-left: 66.5px;
+    text-transform: uppercase;
+    height: 40px;
+}
+@media only screen and (max-width: 600px){
+    .head{
+        font-size: 12px;
+        margin-left: 20px;
+    }
+}
