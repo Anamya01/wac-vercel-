@@ -3,7 +3,7 @@ import './NavBar.css';
 import Search from '../Search/Search';
 import { Link, useNavigate } from 'react-router-dom';
 import { UserAuth } from '../../context/AuthContext';
-import used from '../images/images.jpeg';
+import used from '../../images/images.jpeg';
 function NavBar() {
   const { user, logOut } = UserAuth();
   const navigate = useNavigate();
