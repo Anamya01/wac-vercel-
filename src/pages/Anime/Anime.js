@@ -1,5 +1,5 @@
 import React, { useEffect , useState} from 'react'
-import ReactPlayer from 'react-player';
+
 
 function Anime() {
 
@@ -26,7 +26,6 @@ console.log(data);
 
   return (
     <div>Anime
-      <ReactPlayer url={`https://yot.gnicirp.com/_v10/6473884104bd7bd3abca7…43b6234e913ea589a2f14e8cfda68cc04/1080/index.m3u8`}></ReactPlayer>
     </div>
   )
 }
