@@ -90,18 +90,37 @@ button2{
     width: 30px;
 }
 .tear2 button{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height:30px;
     background: #1f222b;
-    border-radius: 7px;
+    background-color: black;
+    border-radius:5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
     color: #5fe85d;
+    font-size: .6rem;
     
 }
 
-
+@media only screen and (max-width: 600px){
+    .cardSS{
+        min-width: 49%;
+        max-width: 49%;
+    }
+    .title2{
+        font-size: 0.8rem;
+    }
+    .date2{
+        font-size: 0.6rem;
+    }
+    .detailsCard2{
+        top: -155%;
+    }
+    .tear2{
+        top: -190%;
+        left:  80%;
+    }
+}
 /*#f20e89
 #8070ff;*/
