@@ -1,6 +1,6 @@
 .containerS{
     display: flex;
-    gap: 29.5px;
+    gap: 10.5px;
     width: calc(100% - 135px);
     height: 30vh;
     margin-top: 20px;
