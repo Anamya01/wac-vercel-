@@ -27,7 +27,7 @@ function Login() {
     <NavBar/>
     <div className='signin'>
       {
-        error && <p>{error}</p>
+        error && <p>{error.substring(10)}</p>
       }
       <form onSubmit={handleSubmit} >
         <input className='ing' onChange={(e)=>setEmail(e.target.value)} type="email" placeholder='email' autoComplete='email'></input>
