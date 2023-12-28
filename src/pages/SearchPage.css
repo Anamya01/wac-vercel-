@@ -91,3 +91,24 @@
 .clicked{
     border: .1px solid #5fe85d;
 }
+
+@media only screen and (max-width: 600px){
+    .searcher{
+        height: 35vh;
+        flex-wrap: wrap;
+    }
+    .searcher form{
+        flex-direction: column;
+    }
+    .searcher form input{
+        width: 100%;
+    }
+    .searcher form input:focus{
+    width: 100%;
+    border: .1px solid #ceffcd;
+    color: #5fe85d;
+    }
+    .searcher .option{
+        margin-top: 0px;
+    }
+}
