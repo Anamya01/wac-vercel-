@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './SearchList.css';
-import alt from '/Users/anamyavats/Downloads/RecPo/vplay/client/src/images/images.jpeg'
 import { FaPlay } from "react-icons/fa";
 function SearchList(param) {
   console.log(+ param.media);
