@@ -43,7 +43,7 @@ export default function BasicModal(props) {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box sx={style}>
+        <Box className="Boxmodel">
         <iframe className='frametag' src={props.url} allow="fullscreen"></iframe>
           <Typography id="modal-modal-title" variant="h6" component="h2">
             {title}
