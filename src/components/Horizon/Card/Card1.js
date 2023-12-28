@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './Card1.css'
-import test from "/Users/anamyavats/Downloads/RecPo/vplay/client/src/images/vieew.jpeg"
 function Card1(props) {
     return (
     <div className='Card1'>
