@@ -18,3 +18,30 @@ iframe{
 #rs-date{
     color: #5fe85d;
 }
+.Boxmodel{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 90%;
+  background-color: #1f222b;
+  border: 2px solid #1f222b;
+  box-shadow: 24;
+  padding: 10px;
+}
+@media only screen and (max-width: 600px){
+    .Boxmodel{
+        width: 95vw;
+        height: 70%;
+    }
+    #modal-modal-title{
+        font-size: .9rem;
+    }
+    #modal-modal-description{
+        font-size: .6rem;
+    }
+    #rs-date{
+        font-size: .6rem;
+    }
+}
