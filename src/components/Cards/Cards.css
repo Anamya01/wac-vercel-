@@ -99,6 +99,6 @@ button{
     }
     .tear{
         top: -144%;
-        left: calc(100%-5px);
+        left: 80%;
     }
 }
