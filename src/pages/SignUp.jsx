@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom'
 import NavBar from '../components/NavBar/NavBar';
 import {UserAuth} from '../context/AuthContext'
+import './Login.css';
 function SignUp() {
   const [email,setEmail] = useState('');
   const [password,setPassword] = useState('');
@@ -21,17 +22,16 @@ function SignUp() {
 
   return (
     <>
-    <div>
-      <NavBar/>
+    <NavBar/>
+    <div className='signin'>
       <form onSubmit={handleSubmit}>
-        <input onChange={(e)=>setEmail(e.target.value)} type="email" placeholder='email' autoComplete='email'></input>
-        <input onChange={(e)=>setPassword(e.target.value)} type="password" placeholder='password'></input>
-        <button>SignUp</button>
+        <input className='ing' onChange={(e)=>setEmail(e.target.value)} type="email" placeholder='email' autoComplete='email'></input>
+        <input className='ing' onChange={(e)=>setPassword(e.target.value)} type="password" placeholder='password'></input>
         <div>
           <p><input type="checkbox"/>remember me</p>
-          <p>need help?</p>
         </div>
-        <div> <Link to='/login'> SignIn  </Link> </div>
+        <button>Sign Up</button>
+        <div> <Link to='/login'> Sign In  </Link> </div>
       </form>
     </div>
     </>
