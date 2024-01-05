@@ -35,7 +35,7 @@ function NavBar() {
         {user?.email ? 
         <div>
         <div className='profile' onClick={showHandlerOpen} onMouseLeave={showHandlerClose}>
-          <p>Moron</p>
+          <p>UserName</p>
           <img src={used} alt='' ></img>
         </div>
         {show &&
