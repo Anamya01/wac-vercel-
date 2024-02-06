@@ -1,12 +1,12 @@
 .container2{
     display: flex;
-    gap: 10.5px;
-    width: calc(100% - 135px);
-    height: 30vh;
+    gap: 15.5px;
+    width: calc(100% - 0px);
+    height: 20vh;
     margin-top: 20px;
     align-items: center;
     overflow-x: scroll;
-    margin-left: 66.5px;
+    /* margin-left: 66.5px; */
     margin-bottom: 50px;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
