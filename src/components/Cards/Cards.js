@@ -32,7 +32,7 @@ function Cards(param) {
       <div className='detailsCard'>
       <p className='title'>{shorten}</p>
       <br></br>
-      // <p className='date'>{rs}</p>
+       <p className='date'></p>
       </div>
       <div className='tear'> <button><BasicModal data = {param} url = {url} className="modalBasic" /></button> </div>
     </div>
