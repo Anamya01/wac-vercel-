@@ -20,7 +20,7 @@
 .detailsCard{
     margin-left: 10px;
     position: relative;
-    top: -124%;
+    top: -120%;
     color: #ffffff;
     font-family: 'Righteous', sans-serif;
 }
@@ -64,7 +64,7 @@ button{
 }
 .tear{
     position: relative;
-    top: -141.5%;
+    top: -138.5%;
     left: calc(100% - 33px);
     width: 100px;
 }
