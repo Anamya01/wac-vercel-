@@ -27,8 +27,6 @@ function App() {
       <AuthContextProvider>
       <NavBar />
       <Header param = "trending" />
-      <p className='head'>Explore...</p>
-      <Horizon param = "popular" />
       <p className='head'>Latest</p>
       <Latest param = "trending" />
       <p className='head'>Popular</p>
