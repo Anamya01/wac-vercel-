@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-.head{
+.headd{
     color: #d2ffd1;
     font-family: 'Righteous', sans-serif;
-    font-size: 20px;
-    margin-left: 66.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin-left: 10.5px;
+    font-weight: bolder;
     text-transform: uppercase;
     height: 40px;
 }
