@@ -67,7 +67,7 @@ button{
 }
 .tear{
     position: relative;
-    top: -138.5%;
+    top: -135.5%;
     left: calc(100% - 33px);
     width: 100px;
 }
