@@ -26,7 +26,7 @@
 .cardSS .detailsCard2{
     margin-left: 10px;
     position: relative;
-    top: -125%;
+    top: -120%;
     left: 0%;
     color: #ffffff;
     min-height: 70%;
@@ -86,7 +86,7 @@ button2{
 }
 .tear2{
     position: relative;
-    top: -187%;
+    top: -180%;
     left:  87%;
     width: 30px;
 }
