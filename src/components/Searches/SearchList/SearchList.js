@@ -50,7 +50,6 @@ function SearchList(param) {
       <div className='detailsCard2'>
       <p className='title2'>{shorten}</p>
       <br></br>
-      <p className='date2'>{rs}</p>
       </div>
       <a className='tear2' href={url}> <button><FaPlay /></button> </a>
     </div>
