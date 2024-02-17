@@ -26,12 +26,13 @@
 .cardSS .detailsCard2{
     margin-left: 10px;
     position: relative;
-    top: -118%;
+    top: -117%;
     left: 0%;
     color: #ffffff;
     min-height: 70%;
     max-height: 70%;
     font-family: 'Righteous', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transition: all .5s ease-in-out;
 }
 .title2{
