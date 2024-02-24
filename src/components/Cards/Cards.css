@@ -104,10 +104,10 @@ button{
         font-size: 0.6rem;
     }
     .detailsCard{
-        top: -120%;
+        top: -110%;
     }
     .tear{
-        top: -138%;
+        top: -125%;
         left: 80%;
     }
 }
