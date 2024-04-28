@@ -1,5 +1,5 @@
 # Wac 
-
+"Vistaio" implies a digital space offering expansive and enjoyable visual experiences, possibly related to entertainment or multimedia content.
 <img width="1440" alt="Screenshot 2024-04-20 at 3 32 31 PM" src="https://github.com/Anamya01/wac-vercel-/assets/121956516/948342b9-0ae2-416f-9606-d1902e4f45ba">
 
 # It's Free and You are not the Product.
