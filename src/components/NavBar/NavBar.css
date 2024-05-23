@@ -48,6 +48,7 @@
 }
 .xplay p{
     font-family: 'Righteous', sans-serif;
+    color: rgb(214,85,24);
 }
 a{
     text-decoration: none;
@@ -61,6 +62,10 @@ a{
     background:none;
     color: #5fe85d;
 
+}
+.vistaio-link{
+  text-decoration : none;
+  color: rgb(214,85,24);
 }
 .acountbtn:hover{
     text-decoration: underline;
