@@ -28,7 +28,7 @@ function NavBar() {
     <div className='NavBar'>
       <div className='xplay'>
         <Link to='/' > <h1>Wac.</h1> </ Link>
-        <a href='https://vistaio--omega.vercel.app/' className = 'vistaio-link'><p id='topstrem'>Vistaio</p></a>
+        <a href='https://vistaio--omega.vercel.app/' className = 'vistaio-link'><p id='topstrem'></p></a>
       </div>
       <div className='user'>
         <Search className="srch"></Search>
