@@ -33,7 +33,7 @@ function Searches(param) {
   return (
     <div className='containerS'>
       { Lists === undefined ? (<Latest />) :
-        Lists.map(items => <SearchList param={"items"} media = {media} />)
+        Lists.map(items => <SearchList param={items} media = {media} />)
       }
     </div>
   )
